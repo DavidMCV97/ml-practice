@@ -1,2 +1,8 @@
-# ignore all venv directory
+# ignore venv directory
 venv/
+
+# ignore jupyter temporal files in all subfolders
+**.ipynb_checkpoints/
+
+# ignore all datasets
+**datasets/
